@@ -1,3 +1,3 @@
-import { Menu, Name } from "./menu";
+import { Menu} from "./menu";
 
-console.log(Menu, Name);
+console.log(Menu);

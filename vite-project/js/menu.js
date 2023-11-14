@@ -1,4 +1,3 @@
-const Menu = ["za", "Eminems"];
-const Name = ["bob", "james"]
+const Menu = ["BoeufBourguignon", "Souvlaki", "Paella", "Escargots", "Arancini", "Currywurst", "Poffertjes","Köttbullar", "Fårikål", "Smørrebrød", "Stjerneskud", "Flæskesteg", "Salmon"]
 
-export {Menu, Name}
+export {Menu}
