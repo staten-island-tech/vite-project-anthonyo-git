@@ -2,49 +2,49 @@ const Menu = [
     {
         "name": "BoeufBourguignon",
         "text": "Beef, Bacon Lardons, Carrots, Onions and Mushrooms slow cooked in a rich red wine sauce",
-        "type": "Stew, Main Dish",
+        "type": "Stew, Main Course",
         "flavor": null,
-        "language": "German",
-        "Origin": "France"
+        "Price": 20.00,
+        "Origin": "French cuisine"
     },
     {
         "name": "Souvlaki",
-        "text": "{T}: Der Bogenschütze der Femeref fügt einer angreifenden fliegenden Kreatur Deiner Wahl 4 Schadenspunkte zu.",
-        "type": "Kreatur — Bogenschütze",
+        "text": "Marinated pork, chicken, beef, or lamb grilled on a skewer",
+        "type": "Appetizer, Fast Food",
         "flavor": null,
-        "language": "German",
-        "Origin": null
+        "Price": 4.75,
+        "Origin": "Greek cuisine"
     },
     {
         "name": "Paella", 
-        "text": "{T}: Der Bogenschütze der Femeref fügt einer angreifenden fliegenden Kreatur Deiner Wahl 4 Schadenspunkte zu.",
-        "type": "Kreatur — Bogenschütze",
+        "text": "Rice, saffron, vegetables, chicken, and cooked seafood",
+        "type": "Main Course, ",
         "flavor": null,
-        "language": "German",
-        "Origin": null
+        "Price": 32.00,
+        "Origin": "Valencian cuisine, Spanish cuisine"
     },
     {
         "name": "Escargots",
         "text": "{T}: Der Bogenschütze der Femeref fügt einer angreifenden fliegenden Kreatur Deiner Wahl 4 Schadenspunkte zu.",
-        "type": "Kreatur — Bogenschütze",
+        "type": "appetizer",
         "flavor": null,
-        "language": "German",
-        "Origin": null
+        "Price": 13.50,
+        "Origin": "French cuisine"
     },
     {
         "name": "Arancini",
         "text": "{T}: Der Bogenschütze der Femeref fügt einer angreifenden fliegenden Kreatur Deiner Wahl 4 Schadenspunkte zu.",
         "type": "Kreatur — Bogenschütze",
         "flavor": null,
-        "language": "German",
-        "Origin": null
+        "Price": "German",
+        "Origin": ""
     },
     {
         "name": "Currywurst",
         "text": "{T}: Der Bogenschütze der Femeref fügt einer angreifenden fliegenden Kreatur Deiner Wahl 4 Schadenspunkte zu.",
         "type": "Kreatur — Bogenschütze",
         "flavor": null,
-        "language": "German",
+        "Price": "German",
         "Origin": null
     },
     {
@@ -52,7 +52,7 @@ const Menu = [
         "text": "{T}: Der Bogenschütze der Femeref fügt einer angreifenden fliegenden Kreatur Deiner Wahl 4 Schadenspunkte zu.",
         "type": "Kreatur — Bogenschütze",
         "flavor": null,
-        "language": "German",
+        "Price": "German",
         "Origin": null
     },
     {
@@ -60,7 +60,7 @@ const Menu = [
         "text": "{T}: Der Bogenschütze der Femeref fügt einer angreifenden fliegenden Kreatur Deiner Wahl 4 Schadenspunkte zu.",
         "type": "Kreatur — Bogenschütze",
         "flavor": null,
-        "language": "German",
+        "Price": "German",
         "Origin": null
     },
     {
@@ -68,7 +68,7 @@ const Menu = [
         "text": "{T}: Der Bogenschütze der Femeref fügt einer angreifenden fliegenden Kreatur Deiner Wahl 4 Schadenspunkte zu.",
         "type": "Kreatur — Bogenschütze",
         "flavor": null,
-        "language": "German",
+        "Price": "German",
         "Origin": null
     },
     {
@@ -76,7 +76,7 @@ const Menu = [
         "text": "{T}: Der Bogenschütze der Femeref fügt einer angreifenden fliegenden Kreatur Deiner Wahl 4 Schadenspunkte zu.",
         "type": "Kreatur — Bogenschütze",
         "flavor": null,
-        "language": "German",
+        "Price": "German",
         "Origin": null
     },
     {
@@ -84,7 +84,7 @@ const Menu = [
         "text": "{T}: Der Bogenschütze der Femeref fügt einer angreifenden fliegenden Kreatur Deiner Wahl 4 Schadenspunkte zu.",
         "type": "Kreatur — Bogenschütze",
         "flavor": null,
-        "language": "German",
+        "Price": "German",
         "Origin": null
     },
     {
@@ -92,7 +92,7 @@ const Menu = [
         "text": "{T}: Der Bogenschütze der Femeref fügt einer angreifenden fliegenden Kreatur Deiner Wahl 4 Schadenspunkte zu.",
         "type": "Kreatur — Bogenschütze",
         "flavor": null,
-        "language": "German",
+        "Price": "German",
         "Origin": null
     },
     {
@@ -100,7 +100,7 @@ const Menu = [
         "text": "{T}: Der Bogenschütze der Femeref fügt einer angreifenden fliegenden Kreatur Deiner Wahl 4 Schadenspunkte zu.",
         "type": "Kreatur — Bogenschütze",
         "flavor": null,
-        "language": "German",
+        "Price": "German",
         "Origin": null
     }
 ]
