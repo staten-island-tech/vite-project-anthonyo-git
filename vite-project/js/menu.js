@@ -5,7 +5,7 @@ const Menu = [
         "type": "Stew, Main Course",
         "flavor": null,
         "Price": 20.00,
-        "Origin": "French cuisine"
+        "Origin": "French Cuisine"
     },
     {
         "name": "Souvlaki",
@@ -13,7 +13,7 @@ const Menu = [
         "type": "Appetizer, Fast Food",
         "flavor": null,
         "Price": 4.75,
-        "Origin": "Greek cuisine"
+        "Origin": "Greek Cuisine"
     },
     {
         "name": "Paella", 
@@ -21,47 +21,47 @@ const Menu = [
         "type": "Main Course, ",
         "flavor": null,
         "Price": 32.00,
-        "Origin": "Valencian cuisine, Spanish cuisine"
+        "Origin": "Valencian Cuisine, Spanish Cuisine"
     },
     {
         "name": "Escargots",
-        "text": "{T}: Der Bogenschütze der Femeref fügt einer angreifenden fliegenden Kreatur Deiner Wahl 4 Schadenspunkte zu.",
+        "text": "Cooked, edible snail drenched with butter and garlic",
         "type": "appetizer",
         "flavor": null,
         "Price": 13.50,
-        "Origin": "French cuisine"
+        "Origin": "French Cuisine"
     },
     {
         "name": "Arancini",
-        "text": "{T}: Der Bogenschütze der Femeref fügt einer angreifenden fliegenden Kreatur Deiner Wahl 4 Schadenspunkte zu.",
-        "type": "Kreatur — Bogenschütze",
+        "text": "Rounded balls of cooked rice with savory mozzarella cheese, coated with bread crumbs and deep-fried.",
+        "type": "Appetizer",
         "flavor": null,
-        "Price": "German",
-        "Origin": ""
+        "Price": 6.00,
+        "Origin": "Sicily Cuisine"
     },
     {
-        "name": "Currywurst",
-        "text": "{T}: Der Bogenschütze der Femeref fügt einer angreifenden fliegenden Kreatur Deiner Wahl 4 Schadenspunkte zu.",
-        "type": "Kreatur — Bogenschütze",
+        "name": "Moroccan Apricot Chicken",
+        "text": "Chicken pieces braised with spices, garlic, onion, olives, and preserved lemons",
+        "type": "Main Course",
         "flavor": null,
-        "Price": "German",
-        "Origin": null
+        "Price": 26.00,
+        "Origin": "Moroccan Cuisine"
     },
     {
-        "name": "Poffertjes",
-        "text": "{T}: Der Bogenschütze der Femeref fügt einer angreifenden fliegenden Kreatur Deiner Wahl 4 Schadenspunkte zu.",
-        "type": "Kreatur — Bogenschütze",
+        "name": "Hummingbird Cake",
+        "text": "Spiced pineapple-banana cake topped with vanilla cream cheese frosting and a crunch of toasted pecans",
+        "type": "Dessert",
         "flavor": null,
-        "Price": "German",
-        "Origin": null
+        "Price": 6.00,
+        "Origin": "Jamaican Cuisine"
     },
     {
-        "name": "Köttbullar",
-        "text": "{T}: Der Bogenschütze der Femeref fügt einer angreifenden fliegenden Kreatur Deiner Wahl 4 Schadenspunkte zu.",
-        "type": "Kreatur — Bogenschütze",
+        "name": "Jamaican Chicken Soup",
+        "text": "Hearty chicken soup with chicken stock, garlic, onion, carrots",
+        "type": "Soup",
         "flavor": null,
         "Price": "German",
-        "Origin": null
+        "Origin": "Jamaican Cuisine"
     },
     {
         "name": "Fårikål",
