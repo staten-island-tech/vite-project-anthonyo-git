@@ -2,7 +2,7 @@ const Cars = [
     {
         "brand": "Hyundai",
         "description": "Hyundai Sonata is a reliable sedan with advanced safety features.",
-        "category": "Sedan",
+        "image": 
         "type": "Electric",
         "origin": "South Korea"
     },

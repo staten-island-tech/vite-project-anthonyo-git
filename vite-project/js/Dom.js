@@ -1,45 +1,27 @@
+import Cars from '/Cars.js'
+
 const DOMSelectors = {
-    form: document.querySelector("#form"),
-    Header: document.querySelector(".head"),
-    Text: document.querySelector(".texts"),
-    Image: document.querySelector(".image"),
-    h2s: document.querySelectorAll("h2"),
-    imgs: document.querySelectorAll("img")
+    brand: document.querySelector(".brand"),
+    description: document.querySelector(".description"),
+    category: document.querySelector(".category"),
+    type: document.querySelector(".type"),
+    origin: document.querySelectorAll("origin"),
+    Image: document.querySelector(".image")
   };
   
   function createcard() {
     const card = {
-      Header: DOMSelectors.Header.value,
-      Text: DOMSelectors.Text.value,
+      brand: DOMSelectors.brand.value,
+      description: DOMSelectors.description.value,
       Image: DOMSelectors.Image.value
     } 
     return card;
   };
-    
-  function insert(card) {
-    document.querySelector(".Flexbox-container").insertAdjacentHTML(
-      "beforeend", 
-      `<div class="cell">
-          <div class="text-container">
-            <h2>${card.Header}</h2>
-            <p>${card.Text}</p>
-          </div>
-          <img src="${card.Image}">
-          <button class="remove-button">Remove</button>
-        </div>`
-    );
-  
-      const newCard = document.querySelector(".Flexbox-container").lastElementChild;
-    newCard.querySelector(".remove-button").addEventListener("click", function() {
-      newCard.remove();
-    });
-   }
-     
+
   DOMSelectors.form.addEventListener("submit", function (event) {
     event.preventDefault();
     const card = createcard();
     insert(card);
   });;
-
 
   
