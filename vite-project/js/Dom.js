@@ -1,7 +1,7 @@
 export function dom() {
   const selectors = {
     form: document.getElementById("form"),
-    submit: document.getElementById("submit"),55555555555
+    submit: document.getElementById("submit"),
     electric: document.getElementById('electric'),
     gasoline: document.getElementById('gasoline'),
     hybrid: document.getElementById('hybrid'),
@@ -10,4 +10,3 @@ export function dom() {
   return selectors;
 }
 
-sdadadada
