@@ -1,5 +1,5 @@
 import '../css/style.css'
-import { dom } from "./dom.js";
+import { dom } from "./Dom.js";
 import { Cars } from './Cars.js';
 
 const carsContainer = document.querySelector("#cars-container");
