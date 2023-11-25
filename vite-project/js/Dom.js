@@ -1,27 +1,12 @@
-import Cars from '/Cars.js'
-
-const DOMSelectors = {
-    brand: document.querySelector(".brand"),
-    description: document.querySelector(".description"),
-    category: document.querySelector(".category"),
-    type: document.querySelector(".type"),
-    origin: document.querySelectorAll("origin"),
-    Image: document.querySelector(".image")
+export function dom() {
+  const selectors = {
+    form: document.getElementById("form"),
+    submit: document.getElementById("submit"),
+    electric: document.getElementById('electric'),
+    gasoline: document.getElementById('gasoline'),
+    hybrid: document.getElementById('hybrid'),
+    themeSwitcher: document.getElementById('theme-switcher')
   };
-  
-  function createcard() {
-    const card = {
-      brand: DOMSelectors.brand.value,
-      description: DOMSelectors.description.value,
-      Image: DOMSelectors.Image.value
-    } 
-    return card;
-  };
+  return selectors;
+}
 
-  DOMSelectors.form.addEventListener("submit", function (event) {
-    event.preventDefault();
-    const card = createcard();
-    insert(card);
-  });;
-
-  

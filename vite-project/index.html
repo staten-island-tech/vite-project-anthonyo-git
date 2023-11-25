@@ -1,14 +1,26 @@
-<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
+ <head>
+   <meta charset="UTF-8" />
+   <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>Vite App</title>
+   <link rel="stylesheet" href="css/style.css">
+ </head>
+ <body>
+   <div id="cars-container"></div>
 
+   <form id="form">
+    <input type="radio" id="electric" name="fuel" value="electric">
+    <label for="electric">Electric</label><br>
+    <input type="radio" id="gasoline" name="fuel" value="gasoline">
+    <label for="gasoline">Gasoline</label><br>
+    <input type="radio" id="hybrid" name="fuel" value="hybrid">
+    <label for="hybrid">Hybrid</label><br>
+    <button id="submit">Submit</button>
+  </form>
 
-    <script type="module" src="js/main.js"></script>
-  </body>
+  <button id="theme-switcher">Switch Theme</button>
+
+  <script type="module" src="js/main.js"></script>
+ </body>
 </html>
