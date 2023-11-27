@@ -1,12 +1,12 @@
 import '../css/style.css'
-import { dom } from "./dom.js";
+import { dom } from "./Dom.js";
 import { Cars } from './Cars.js';
 
-const carsContainer = document.querySelector("#cars-container");
+const carsContainer = document.querySelector('.cars-container');
 const selectors = dom();
 
 function HTMLCar(car) {
- carsContainer.insertAdjacentHTML(
+  document.querySelector(".cars-container").insertAdjacentHTML(
   "beforeend",
   `<div class="car-card">
     <h2>${car.brand}</h2>
@@ -47,3 +47,16 @@ selectors.form.addEventListener('submit', (e) => {
   }
    
  Cars.forEach(HTMLCar);
+
+
+ selectors.themeSwitcher.addEventListener('click', (e) => {
+  console.log('toggling')
+  if (document.body.classList.contains('dark-mode')) {
+    document.body.classList.add('light-mode');
+    document.body.classList.remove('dark-mode');
+  }
+  else {
+    document.body.classList.add('dark-mode');
+    document.body.classList.remove('light-mode');
+  }
+})

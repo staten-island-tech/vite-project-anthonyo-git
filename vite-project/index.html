@@ -7,16 +7,24 @@
    <link rel="stylesheet" href="css/style.css">
  </head>
  <body>
-   <div id="cars-container"></div>
+  
+  <div class="cars-container">
+    <div class="cell">
+      <img src="" alt="">
+      <div class="text-container">
+        <h2></h2>
+        <p></p>
+      </div> 
+    </div>
+  </div>
 
    <form id="form">
-    <input type="radio" id="electric" name="fuel" value="electric">
+    <input type="checkbox" id="electric" name="fuel" value="electric">
     <label for="electric">Electric</label><br>
-    <input type="radio" id="gasoline" name="fuel" value="gasoline">
+    <input type="checkbox" id="gasoline" name="fuel" value="gasoline">
     <label for="gasoline">Gasoline</label><br>
-    <input type="radio" id="hybrid" name="fuel" value="hybrid">
+    <input type="checkbox" id="hybrid" name="fuel" value="hybrid">
     <label for="hybrid">Hybrid</label><br>
-    <button id="submit">Submit</button>
   </form>
 
   <button id="theme-switcher">Switch Theme</button>
