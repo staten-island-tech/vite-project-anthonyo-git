@@ -7,13 +7,13 @@ const selectors = dom();
 
 function HTMLCar(car) {
   document.querySelector(".cars-container").insertAdjacentHTML(
-  "beforeend",
-  `<div class="car-card">
-    <h2>${car.brand}</h2>
-    <p>${car.description}</p>
-    <img src="${car.image}" alt="${car.brand}">
-  </div>`
- );
+    "beforeend",
+    `<div class="car-card">
+      <h2>${car.brand}</h2>
+      <p>${car.description}</p>
+      <img src="${car.image}" alt="${car.brand}">
+    </div>`
+  );
 }
 
 selectors.electric.addEventListener('change', filterCars);
@@ -50,13 +50,11 @@ selectors.form.addEventListener('submit', (e) => {
 
 
  selectors.themeSwitcher.addEventListener('click', (e) => {
-  console.log('toggling')
   if (document.body.classList.contains('dark-mode')) {
-    document.body.classList.add('light-mode');
     document.body.classList.remove('dark-mode');
-  }
-  else {
-    document.body.classList.add('dark-mode');
+    document.body.classList.add('light-mode');
+  } else {
     document.body.classList.remove('light-mode');
+    document.body.classList.add('dark-mode');
   }
-})
+});
