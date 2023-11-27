@@ -19,6 +19,15 @@
   --black: #000000;
 }
 
+.flex-container img {
+  height: 33vh;
+  width: 250px;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  filter: grayscale(40%);
+}
+
 a {
   font-weight: 500;
   color: #646cff;
@@ -91,6 +100,7 @@ h1 {
   color: #888;
 }
 
+img
 button {
   border-radius: 8px;
   border: 1px solid transparent;
