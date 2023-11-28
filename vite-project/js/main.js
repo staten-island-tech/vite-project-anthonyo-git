@@ -16,9 +16,9 @@ function HTMLCar(car) {
   );
 }
 
-selectors.electric.addEventListener('change', filterCars);
-selectors.gasoline.addEventListener('change', filterCars);
-selectors.hybrid.addEventListener('change', filterCars);
+selectors.electric.addEventListener('click', filterCars);
+selectors.gasoline.addEventListener('click', filterCars);
+selectors.hybrid.addEventListener('click', filterCars);
 
 selectors.form.addEventListener('submit', (e) => {
   e.preventDefault();
