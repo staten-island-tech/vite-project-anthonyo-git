@@ -19,6 +19,11 @@
   --black: #000000;
 }
 
+.checkbox-container {
+  margin-left: 93vw;
+  margin-top: 50vh;
+}
+
 .flex-container img {
   height: 33vh;
   width: 250px;
@@ -28,14 +33,7 @@
   filter: grayscale(40%);
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
+
 
 body {
   background-color: var(--primary);
@@ -79,29 +77,9 @@ img {
   --primary: var(--green);
   --text: var(--black);
 }
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vanilla:hover {
-  filter: drop-shadow(0 0 2em #f7df1eaa);
-}
 
-.read-the-docs {
-  color: #888;
-}
 
-img
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -115,11 +93,9 @@ button {
 }
 button:hover {
   border-color: #646cff;
+  border-width: 5px;
 }
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
+
 
 @media (prefers-color-scheme: light) {
   :root {
